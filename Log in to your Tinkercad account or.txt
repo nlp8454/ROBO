@@ -1,0 +1,28 @@
+Log in to your Tinkercad account or create a new one if you haven't already.
+
+Once logged in, click on the "Create New Design" button to start a new project.
+
+In the Components panel on the right side of the screen, search for and add the following components to your design:
+
+Arduino UNO board
+Ultrasonic distance sensor
+Piezo buzzer
+Connect the components together according to the circuit diagram provided:
+Connect the trigger pin of the ultrasonic sensor to digital pin 2 of the Arduino.
+Connect the echo pin of the ultrasonic sensor to digital pin 3 of the Arduino.
+Connect the positive terminal of the piezo buzzer to digital pin 10 of the Arduino
+connect the minus to digital gnd
+connect the vcc to 5v
+connect the gnd to gnd
+
+Replace the existing code in the Arduino coding area with the provided code.
+
+Review the code and make sure it matches the code you have received.
+
+Click on the "Start Simulation" button to run the code and simulate the circuit.
+
+Observe the simulation:
+
+Check the serial monitor in the Tinkercad interface to see the output from the Arduino.
+The serial monitor will display whether the door is open or closed and the measured distance.
+By following these steps, you will be able to perform the practical on Tinkercad and test the Python code for the sensor using the simulated circuit.
